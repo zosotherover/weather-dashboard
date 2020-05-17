@@ -1,7 +1,28 @@
-.card {
-    background-color: gray;
-    font-size: 40px;
-    font-weight: 600;
-    color: white
-    
-}
+
+h1 {
+    font-size: small;
+    font-weight: 500;
+  }
+  .search {
+    position: relative;
+  }
+  .oneDayWeather {
+    display: inline-flexbox;
+    box-sizing: border-box;
+    float: right;
+    margin: 100px, 0px, 0px, 100px;
+    justify-content: center;
+  }
+  
+  .cardCity {
+    position: relative;
+    margin: 0px;
+  }
+  
+  #forcastDiv {
+    float: right;
+  }
+  #citySearch {
+    width: 225px;
+  }
+  

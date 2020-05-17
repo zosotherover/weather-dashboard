@@ -1,35 +1,33 @@
 
-.card-header {
-    background-color: lightseagreen;
-    font-size: 50px;
-    font-weight: 600;
-    color: white
+ul {
+    list-style: none;
+
 }
 
-h1 {
-    font-size: small;
+li {
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+    padding-left: 10px;
+}
+/* styles for card titles  */
+.card-title {
+    font-size: 20px;
     font-weight: 500;
-  }
-  .search {
-    position: relative;
-  }
-  .oneDayWeather {
-    display: inline-flexbox;
-    box-sizing: border-box;
-    float: right;
-    margin: 100px, 0px, 0px, 100px;
-    justify-content: center;
-  }
-  
-  .cardCity {
-    position: relative;
-    margin: 0px;
-  }
-  
-  #forcastDiv {
-    float: right;
-  }
-  #citySearch {
-    width: 225px;
-  }
-  
+}
+/* styles for img size  */
+img {
+    width: 85px;
+    height: 85px;
+}
+
+.fiveDayColor {
+    padding: 20px;
+    background-color: rgb(168, 217, 236);
+    color: black;
+    float: left;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid black
+    
+
+}

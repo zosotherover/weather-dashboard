@@ -1,4 +1,11 @@
 
+.card-header {
+    background-color: lightseagreen;
+    font-size: 50px;
+    font-weight: 600;
+    color: white
+}
+
 h1 {
     font-size: small;
     font-weight: 500;

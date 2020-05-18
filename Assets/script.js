@@ -53,14 +53,14 @@ searchButton.click(function () {
             var timeUTC = new Date(response.dt * 1000);
             currentName.append(response.name + " " + timeUTC.toLocaleDateString("en-US"));
             currentName.append(`<img src="https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png">`);
-            // Add Temp 
+            // Temp 
             var currentTemp = currentName.append("<p>");
             // .addClass("card-text");
             currentName.append(currentTemp);
             currentTemp.append("<p>" + "Temperature: " + response.main.temp + "</p>");
-            // Add Humidity
+            // Humidity
             currentTemp.append("<p>" + "Humidity: " + response.main.humidity + "%" + "</p>");
-            // // Add Wind Speed: 
+            // Wind Speed 
             currentTemp.append("<p>" + "Wind Speed: " + response.wind.speed + "</p>");
 
             // UV Index api URL

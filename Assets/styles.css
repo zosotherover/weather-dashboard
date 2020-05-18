@@ -16,13 +16,15 @@ li {
 }
 
 img {
-    
+
     width: 85px;
     height: 85px;
 }
 
 .currentWeatherCard {
-    text-align: center;
+    width: 300px;
+    text-align: auto
+    
     
 }
 

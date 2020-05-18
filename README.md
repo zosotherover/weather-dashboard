@@ -9,7 +9,7 @@ Enter a city of your choice in the search input field.  The current weather cond
 
 # Links to the app
 
- https://github.com/zosotherover/password-generator
+ https://zosotherover.github.io/weather-dashboard/
 
  https://github.com/zosotherover/weather-dashboard
 
